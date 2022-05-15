@@ -31,7 +31,7 @@ def chat():
     path = os.path.join(current_directory, GOOGLE_AUTHENTICATION_FILE_NAME)
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = path
 
-    GOOGLE_PROJECT_ID = "pizza-ordering-dsik"
+    GOOGLE_PROJECT_ID = "testbot-mldy"
     session_id = "1234567891"
     context_short_name = "does_not_matter"
 
